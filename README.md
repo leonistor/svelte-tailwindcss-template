@@ -34,7 +34,7 @@ See [tailwindcss repo](https://github.com/tailwindcss/discuss/issues/293) for fo
 
 ## Util
 
-Filter `npm run dev` for stderr only: `npm run dev 2 > 1 > /dev/null` (useful in tmux; this is fis shell, for bash use [this](https://stackoverflow.com/questions/2342826/how-to-pipe-stderr-and-not-stdout)  )
+Filter `npm run dev` for stderr only: `npm run dev 2>&1 > /dev/null` (useful in tmux; this is fis shell, for bash use [this](https://stackoverflow.com/questions/2342826/how-to-pipe-stderr-and-not-stdout)  )
 
 Check 'quiet' amd 'silent' in package.json scripts:
 
